@@ -4,7 +4,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     description="Allow API Access for Student Contacts"
     name="Student Contacts API Auth"
-    version="0.1.0"
+    version="0.1.2"
     xsi:schemaLocation="http://plugin.powerschool.pearson.com plugin.xsd">
 
     <oauth></oauth>

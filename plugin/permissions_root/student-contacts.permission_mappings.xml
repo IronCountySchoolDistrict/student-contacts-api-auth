@@ -2,5 +2,29 @@
     <permission name='/admin/students/contacts/studentcontacts.html'>
         <implies allow="get">/ws/schema/table/U_STUDENT_CONTACTS</implies>
         <implies allow="get">/ws/schema/table/U_STUDENT_CONTACTS/#</implies>
+        <implies allow="put">/ws/schema/table/U_STUDENT_CONTACTS/#</implies>
+        <implies allow="post">/ws/schema/table/U_STUDENT_CONTACTS</implies>
+        <implies allow="get">/ws/schema/table/U_STUDENT_CONTACTS_STAGING</implies>
+        <implies allow="get">/ws/schema/table/U_STUDENT_CONTACTS_STAGING/#</implies>
+        <implies allow="put">/ws/schema/table/U_STUDENT_CONTACTS_STAGING/#</implies>
+        <implies allow="post">/ws/schema/table/U_STUDENT_CONTACTS_STAGING</implies>
+
+        <implies allow="get">/ws/schema/table/U_SC_EMAIL</implies>
+        <implies allow="get">/ws/schema/table/U_SC_EMAIL/#</implies>
+        <implies allow="put">/ws/schema/table/U_SC_EMAIL/#</implies>
+        <implies allow="post">/ws/schema/table/U_SC_EMAIL</implies>
+        <implies allow="get">/ws/schema/table/U_SC_EMAIL_STAGING</implies>
+        <implies allow="get">/ws/schema/table/U_SC_EMAIL_STAGING/#</implies>
+        <implies allow="put">/ws/schema/table/U_SC_EMAIL_STAGING/#</implies>
+        <implies allow="post">/ws/schema/table/U_SC_EMAIL_STAGING</implies>
+
+        <implies allow="get">/ws/schema/table/U_SC_PHONE</implies>
+        <implies allow="get">/ws/schema/table/U_SC_PHONE/#</implies>
+        <implies allow="put">/ws/schema/table/U_SC_PHONE/#</implies>
+        <implies allow="post">/ws/schema/table/U_SC_PHONE</implies>
+        <implies allow="get">/ws/schema/table/U_SC_PHONE_STAGING</implies>
+        <implies allow="get">/ws/schema/table/U_SC_PHONE_STAGING/#</implies>
+        <implies allow="put">/ws/schema/table/U_SC_PHONE_STAGING/#</implies>
+        <implies allow="post">/ws/schema/table/U_SC_PHONE_STAGING</implies>
     </permission>
 </permission_mappings>
